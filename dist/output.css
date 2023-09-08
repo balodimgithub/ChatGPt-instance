@@ -772,16 +772,24 @@ video {
   height: 40vh;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .h-\[60vh\] {
   height: 60vh;
 }
 
-.w-\[100\%\] {
-  width: 100%;
+.h-\[350px\] {
+  height: 350px;
 }
 
-.w-\[35\%\] {
-  width: 35%;
+.h-\[400px\] {
+  height: 400px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[50\%\] {
@@ -1777,6 +1785,11 @@ video {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1892,19 +1905,14 @@ video {
   padding-right: 1.25rem;
 }
 
-.py-\[16px\] {
-  padding-top: 16px;
-  padding-bottom: 16px;
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .py-\[30px\] {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.py-\[12px\] {
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .pr-\[20px\] {
@@ -1971,8 +1979,8 @@ video {
   font-size: 100px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-\[20px\] {
@@ -1987,8 +1995,12 @@ video {
   font-size: 30px;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .font-\[400\] {
@@ -1999,12 +2011,20 @@ video {
   font-weight: 450px;
 }
 
+.font-\[500\] {
+  font-weight: 500;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
-.font-\[500\] {
-  font-weight: 500;
+.font-\[600\] {
+  font-weight: 600;
+}
+
+.font-\[700\] {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -2151,6 +2171,10 @@ video {
 .subpixel-antialiased {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .bg-blend-normal {
@@ -2424,6 +2448,117 @@ video {
   content: var(--tw-content);
 }
 
+.class1{
+  /* display : none; */
+  animation: slide 2s ease 4.35s 1;
+}
+
+.class2{
+  animation: slide 2s ease 11s 1;
+}
+
+.class3{
+  animation: slide 2s ease 16s 1;
+}
+
+@keyframes slide {
+  from{
+    opacity: 100%;
+    transform: translate(0px);
+  }
+
+  to{
+    transform:translateY(30px);
+    opacity:0;
+  }
+}
+
+@keyframes slidein{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 100%;
+  }
+}
+
+.animate1{
+  animation: slidein 4s ease 0s  1;
+  /* animation: slide 4s ease  1 ;
+      transform:translate(30px); */
+}
+
+.animate2{
+  animation : slidein 4s  ease 0.8s 1;
+  /* animation: slide 4s ease 1 ;
+    transform: translate(20px); */
+}
+
+.animate3{
+  animation : slidein 4s ease 0.12s 1;
+  /* animation: slide 4s ease 1;
+    transform: translate(10px); */
+}
+
+.animate4{
+  animation: slidein 4s ease 0.16s 1;
+  /* animation : slide 4s ease 1;
+     transform: translate(5px); */
+}
+
+/* .dissapear{
+    animation:slide 2s ease-in-out 10s infinite; 
+  } */
+
+.animate5{
+  animation: slidein 4s ease 8.3s  1;
+  /* animation: slide 4s ease  1 ;
+        transform:translate(30px); */
+}
+
+.animate6{
+  animation : slidein 4s  ease 9s 1;
+  /* animation: slide 4s ease 1 ;
+      transform: translate(20px); */
+}
+
+.animate7{
+  animation : slidein 4s ease 9.5s 1;
+  /* animation: slide 4s ease 1;
+      transform: translate(10px); */
+}
+
+.animate8{
+  animation: slidein 4s ease 9.10s 1;
+  /* animation : slide 4s ease 1;
+       transform: translate(5px); */
+}
+
+.animate9{
+  animation: slidein 4s ease 13s 1;
+}
+
+.animate10{
+  animation:slidein 4s ease 13.6s 1;
+}
+
+.animate11{
+  animation:slidein 4s ease 13.10s 1;
+}
+
+.animate12{
+  animation:slidein 4s ease 13.14s 1;
+}
+
+.animate13{
+  animation:slidein 4s ease 13.18s 1;
+}
+
+.animate14{
+  animation:slidein 4s ease 13.22s 1;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -2468,6 +2603,10 @@ video {
     height: 500px;
   }
 
+  .md\:h-\[600px\] {
+    height: 600px;
+  }
+
   .md\:w-\[50\%\] {
     width: 50%;
   }
@@ -2494,8 +2633,8 @@ video {
     padding-bottom: 25px;
   }
 
-  .md\:text-\[22px\] {
-    font-size: 22px;
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .md\:text-\[30px\] {
@@ -2508,10 +2647,6 @@ video {
 
   .md\:text-\[35px\] {
     font-size: 35px;
-  }
-
-  .md\:text-\[18px\] {
-    font-size: 18px;
   }
 
   .md\:leading-\[1\.25\] {
