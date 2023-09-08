@@ -768,24 +768,16 @@ video {
   height: 100%;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .h-\[40vh\] {
   height: 40vh;
 }
 
-.h-\[600px\] {
-  height: 600px;
-}
-
 .h-\[60vh\] {
   height: 60vh;
-}
-
-.h-\[350px\] {
-  height: 350px;
-}
-
-.h-\[400px\] {
-  height: 400px;
 }
 
 .w-\[100\%\] {
@@ -1785,9 +1777,9 @@ video {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
+.bg-red-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2015,15 +2007,11 @@ video {
   font-weight: 500;
 }
 
-.font-bold {
+.font-\[700\] {
   font-weight: 700;
 }
 
-.font-\[600\] {
-  font-weight: 600;
-}
-
-.font-\[700\] {
+.font-bold {
   font-weight: 700;
 }
 
@@ -2461,6 +2449,18 @@ video {
   animation: slide 2s ease 16s 1;
 }
 
+.class4{
+  animation: slide 2s ease 20s 1;
+}
+
+.class5{
+  animation: slide 2s ease 24s 1;
+}
+
+.class6{
+  animation:slide 2s ease 28s 1;
+}
+
 @keyframes slide {
   from{
     opacity: 100%;
@@ -2535,6 +2535,8 @@ video {
        transform: translate(5px); */
 }
 
+/* class3 */
+
 .animate9{
   animation: slidein 4s ease 13s 1;
 }
@@ -2557,6 +2559,108 @@ video {
 
 .animate14{
   animation:slidein 4s ease 13.22s 1;
+}
+
+/* class4 */
+
+.animate15{
+  animation:slidein 4s ease 17s 1;
+}
+
+.animate16{
+  animation:slidein 4s ease 17.6s 1;
+}
+
+.animate17{
+  animation:slidein 4s ease 17.22s 1;
+}
+
+.animate18{
+  animation:slidein 4s ease 17.24s 1;
+}
+
+.animate19{
+  animation:slidein 4s ease 17.28s 1;
+}
+
+.animate20{
+  animation:slidein 4s ease 17.32s 1;
+}
+
+.animate21{
+  animation:slidein 4s ease 17.36s 1;
+}
+
+/* class5 */
+
+.animate22{
+  animation:slidein 4s ease 21s 1;
+}
+
+.animate23{
+  animation:slidein 4s ease 21.6s 1;
+}
+
+.animate24{
+  animation:slidein 4s ease 21.22s 1;
+}
+
+.animate25{
+  animation:slidein 4s ease 21.24s 1;
+}
+
+.animate26{
+  animation:slidein 4s ease 21.28s 1;
+}
+
+.animate27{
+  animation:slidein 4s ease 21.32s 1;
+}
+
+.animate28{
+  animation:slidein 4s ease 21.36s 1;
+}
+
+.animate29{
+  animation:slidein 4s ease 21.40s 1;
+}
+
+/* class6 */
+
+.animate30{
+  animation:slidein 4s ease 25s 1;
+}
+
+.animate31{
+  animation:slidein 4s ease 25.6s 1;
+}
+
+.animate32{
+  animation:slidein 4s ease 25.22s 1;
+}
+
+.animate33{
+  animation:slidein 4s ease 25.24s 1;
+}
+
+.animate34{
+  animation:slidein 4s ease 25.28s 1;
+}
+
+.animate35{
+  animation:slidein 4s ease 25.32s 1;
+}
+
+.animate36{
+  animation:slidein 4s ease 25.36s 1;
+}
+
+.animate37{
+  animation:slidein 4s ease 25.40s 1;
+}
+
+.animate38{
+  animation:slidein 4s ease 25.44s 1;
 }
 
 .hover\:font-bold:hover {
