@@ -2003,6 +2003,10 @@ video {
   font-weight: 700;
 }
 
+.font-\[500\] {
+  font-weight: 500;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
